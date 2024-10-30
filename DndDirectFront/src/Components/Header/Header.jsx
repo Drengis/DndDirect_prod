@@ -7,6 +7,8 @@ function Header() {
         <header>
             <Link to="/" className="btn btn-secondary">Главная</Link>
             <Link to="/armors" className="btn btn-secondary">Доспехи</Link>
+            <Link to="/weapons" className="btn btn-secondary">Оружие</Link>
+            <Link to="/spells" className="btn btn-secondary">Заклинания</Link>
         </header>
     );
 }
